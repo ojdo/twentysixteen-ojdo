@@ -1,0 +1,19 @@
+/*
+Theme Name:     Twenty Sixteen Child for ojdo
+Theme URI:      http://www.ojdo.de/wp
+Description:    A custom child theme for the Twenty Sixteen theme on ojdo.de
+Author:         ojdo
+Author URI:     http://www.ojdo.de/wp/about/
+Template:       twentysixteen
+Version:        0.1.0
+License:        CC0
+*/
+@import url("../twentysixteen/style.css");
+
+/* copied styles for .taxonomy-description */
+.taxonomy-parents, .taxonomy-subcategories {
+    color: #686868;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+}
+
